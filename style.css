@@ -77,9 +77,26 @@ select {
     --d-magenta: #512051;
     --l-magenta: hsl(300, 24%, 96%);
     --white: hsl(0, 0%, 100%);
+    font-size: 62.5%;
+}
+
+main {
+    padding: 3.2rem;
 }
 
 h1 {
-    font-size: 2rem;
-    color: rgb(17, 0, 255);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 100%;
+}
+
+p {
+    margin-top: 2.4rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
 }
