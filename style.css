@@ -205,21 +205,41 @@ hr {
     min-width: 100%;
 }
 
+table {
+    border-collapse: collapse;
+}
+
 table tr {
     font-size: 1.6rem;
     font-family: "Outfit", sans-serif;
     text-align: left;
-    border: 1px solid var(--stone-900);
-    padding: 1.6rem;
+    border-bottom: 1px solid var(--stone-600);
 }
 
 table tr th {
     font-weight: 400;
     color: var(--stone-600);
-    border-bottom: 1px solid black;
+    padding: 1.2rem 0 1.2rem 3.2rem;
+
 }
 
 td {
     font-weight: 800;
     color: var(--brown-800);
+}
+
+@media (min-width: 38rem) {
+    header {
+        padding: 4rem 4rem 2rem 4rem;
+
+    }
+
+    img {
+        border-radius: 1rem;
+    }
+
+    main {
+        padding: 2rem 4rem 4rem 4rem;
+    }
+
 }
